@@ -7,6 +7,7 @@
 	<meta name="description" content="Documentation for Theia TypeDoc">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
 </head>
 <body>
 <header>
@@ -38,8 +39,6 @@
 							</div>
 							<input type="checkbox" id="tsd-filter-inherited" checked />
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-only-exported" />
-							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -51,7 +50,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../globals.html">Globals</a>
+					<a href="../modules.html">Theia TypeDoc</a>
 				</li>
 				<li>
 					<a href="../modules/editor.html">editor</a>
@@ -78,23 +77,30 @@
 			<section class="tsd-panel">
 				<h3>Implements</h3>
 				<ul class="tsd-hierarchy">
-					<li><a href="../interfaces/core.frontendapplicationcontribution-1.html" class="tsd-signature-type">FrontendApplicationContribution</a></li>
-					<li><a href="../interfaces/core.commandcontribution-1.html" class="tsd-signature-type">CommandContribution</a></li>
-					<li><a href="../interfaces/core.keybindingcontribution-1.html" class="tsd-signature-type">KeybindingContribution</a></li>
-					<li><a href="../interfaces/core.quickopencontribution-2.html" class="tsd-signature-type">QuickOpenContribution</a></li>
+					<li><span class="tsd-signature-type">FrontendApplicationContribution</span></li>
+					<li><span class="tsd-signature-type">CommandContribution</span></li>
+					<li><span class="tsd-signature-type">KeybindingContribution</span></li>
+					<li><span class="tsd-signature-type">MenuContribution</span></li>
 				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="editor.editorcontribution.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
 						<section class="tsd-index-section tsd-is-private-protected">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#contextkeyservice" class="tsd-kind-icon">context<wbr>Key<wbr>Service</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#editormanager" class="tsd-kind-icon">editor<wbr>Manager</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#editorquickopenservice" class="tsd-kind-icon">editor<wbr>Quick<wbr>Open<wbr>Service</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#languages" class="tsd-kind-icon">languages</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#quickinputservice" class="tsd-kind-icon">quick<wbr>Input<wbr>Service</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#shell" class="tsd-kind-icon">shell</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#statusbar" class="tsd-kind-icon">status<wbr>Bar</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#todisposeoncurrenteditorchanged" class="tsd-kind-icon">to<wbr>Dispose<wbr>OnCurrent<wbr>Editor<wbr>Changed</a></li>
 							</ul>
@@ -106,7 +112,7 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="editor.editorcontribution.html#onstart" class="tsd-kind-icon">on<wbr>Start</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="editor.editorcontribution.html#registercommands" class="tsd-kind-icon">register<wbr>Commands</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="editor.editorcontribution.html#registerkeybindings" class="tsd-kind-icon">register<wbr>Keybindings</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="editor.editorcontribution.html#registerquickopenhandlers" class="tsd-kind-icon">register<wbr>Quick<wbr>Open<wbr>Handlers</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="editor.editorcontribution.html#registermenus" class="tsd-kind-icon">register<wbr>Menus</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#setcursorpositionstatus" class="tsd-kind-icon">set<wbr>Cursor<wbr>Position<wbr>Status</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#updateencodingstatus" class="tsd-kind-icon">update<wbr>Encoding<wbr>Status</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="editor.editorcontribution.html#updatelanguagestatus" class="tsd-kind-icon">update<wbr>Language<wbr>Status</a></li>
@@ -116,65 +122,92 @@
 					</div>
 				</section>
 			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Editor<wbr>Contribution<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="editor.editorcontribution.html" class="tsd-signature-type" data-tsd-kind="Class">EditorContribution</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="editor.editorcontribution.html" class="tsd-signature-type" data-tsd-kind="Class">EditorContribution</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="contextkeyservice" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> context<wbr>Key<wbr>Service</h3>
-					<div class="tsd-signature tsd-kind-icon">context<wbr>Key<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="core.contextkeyservice.html" class="tsd-signature-type">ContextKeyService</a></div>
+					<div class="tsd-signature tsd-kind-icon">context<wbr>Key<wbr>Service<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ContextKeyService</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L39">packages/editor/src/browser/editor-contribution.ts:39</a></li>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L44">packages/editor/src/browser/editor-contribution.ts:44</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="editormanager" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> editor<wbr>Manager</h3>
-					<div class="tsd-signature tsd-kind-icon">editor<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="editor.editormanager-1.html" class="tsd-signature-type">EditorManager</a></div>
+					<div class="tsd-signature tsd-kind-icon">editor<wbr>Manager<span class="tsd-signature-symbol">:</span> <a href="editor.editormanager-1.html" class="tsd-signature-type" data-tsd-kind="Class">EditorManager</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L35">packages/editor/src/browser/editor-contribution.ts:35</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-					<a name="editorquickopenservice" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> editor<wbr>Quick<wbr>Open<wbr>Service</h3>
-					<div class="tsd-signature tsd-kind-icon">editor<wbr>Quick<wbr>Open<wbr>Service<span class="tsd-signature-symbol">:</span> <a href="editor.editorquickopenservice.html" class="tsd-signature-type">EditorQuickOpenService</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L42">packages/editor/src/browser/editor-contribution.ts:42</a></li>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L39">packages/editor/src/browser/editor-contribution.ts:39</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="languages" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> languages</h3>
-					<div class="tsd-signature tsd-kind-icon">languages<span class="tsd-signature-symbol">:</span> <a href="core.languageservice.html" class="tsd-signature-type">LanguageService</a></div>
+					<div class="tsd-signature tsd-kind-icon">languages<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">LanguageService</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L36">packages/editor/src/browser/editor-contribution.ts:36</a></li>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L40">packages/editor/src/browser/editor-contribution.ts:40</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="quickinputservice" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> quick<wbr>Input<wbr>Service</h3>
+					<div class="tsd-signature tsd-kind-icon">quick<wbr>Input<wbr>Service<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">QuickInputService</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L47">packages/editor/src/browser/editor-contribution.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="shell" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> shell</h3>
+					<div class="tsd-signature tsd-kind-icon">shell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ApplicationShell</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L41">packages/editor/src/browser/editor-contribution.ts:41</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="statusbar" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> status<wbr>Bar</h3>
-					<div class="tsd-signature tsd-kind-icon">status<wbr>Bar<span class="tsd-signature-symbol">:</span> <a href="../interfaces/core.statusbar-2.html" class="tsd-signature-type">StatusBar</a></div>
+					<div class="tsd-signature tsd-kind-icon">status<wbr>Bar<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">StatusBar</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L34">packages/editor/src/browser/editor-contribution.ts:34</a></li>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L38">packages/editor/src/browser/editor-contribution.ts:38</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 					<a name="todisposeoncurrenteditorchanged" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> to<wbr>Dispose<wbr>OnCurrent<wbr>Editor<wbr>Changed</h3>
-					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<wbr>OnCurrent<wbr>Editor<wbr>Changed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DisposableCollection</span><span class="tsd-signature-symbol"> = new DisposableCollection()</span></div>
+					<div class="tsd-signature tsd-kind-icon">to<wbr>Dispose<wbr>OnCurrent<wbr>Editor<wbr>Changed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DisposableCollection</span><span class="tsd-signature-symbol"> = ...</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L69">packages/editor/src/browser/editor-contribution.ts:69</a></li>
+							<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L74">packages/editor/src/browser/editor-contribution.ts:74</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -191,7 +224,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L51">packages/editor/src/browser/editor-contribution.ts:51</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L56">packages/editor/src/browser/editor-contribution.ts:56</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -207,8 +240,9 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Implementation of FrontendApplicationContribution.onStart</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L44">packages/editor/src/browser/editor-contribution.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L49">packages/editor/src/browser/editor-contribution.ts:49</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -219,20 +253,20 @@
 					<a name="registercommands" class="tsd-anchor"></a>
 					<h3>register<wbr>Commands</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">register<wbr>Commands<span class="tsd-signature-symbol">(</span>commands<span class="tsd-signature-symbol">: </span><a href="core.commandregistry-1.html" class="tsd-signature-type">CommandRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Commands<span class="tsd-signature-symbol">(</span>commands<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CommandRegistry</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Implementation of <a href="../interfaces/core.commandcontribution-1.html">CommandContribution</a>.<a href="../interfaces/core.commandcontribution-1.html#registercommands">registerCommands</a></p>
+								<p>Implementation of CommandContribution.registerCommands</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L132">packages/editor/src/browser/editor-contribution.ts:132</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L137">packages/editor/src/browser/editor-contribution.ts:137</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>commands: <a href="core.commandregistry-1.html" class="tsd-signature-type">CommandRegistry</a></h5>
+									<h5>commands: <span class="tsd-signature-type">CommandRegistry</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -243,20 +277,20 @@
 					<a name="registerkeybindings" class="tsd-anchor"></a>
 					<h3>register<wbr>Keybindings</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">register<wbr>Keybindings<span class="tsd-signature-symbol">(</span>keybindings<span class="tsd-signature-symbol">: </span><a href="core.keybindingregistry-1.html" class="tsd-signature-type">KeybindingRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Keybindings<span class="tsd-signature-symbol">(</span>keybindings<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeybindingRegistry</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Implementation of <a href="../interfaces/core.keybindingcontribution-1.html">KeybindingContribution</a>.<a href="../interfaces/core.keybindingcontribution-1.html#registerkeybindings">registerKeybindings</a></p>
+								<p>Implementation of KeybindingContribution.registerKeybindings</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L138">packages/editor/src/browser/editor-contribution.ts:138</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L160">packages/editor/src/browser/editor-contribution.ts:160</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>keybindings: <a href="core.keybindingregistry-1.html" class="tsd-signature-type">KeybindingRegistry</a></h5>
+									<h5>keybindings: <span class="tsd-signature-type">KeybindingRegistry</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -264,23 +298,23 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="registerquickopenhandlers" class="tsd-anchor"></a>
-					<h3>register<wbr>Quick<wbr>Open<wbr>Handlers</h3>
+					<a name="registermenus" class="tsd-anchor"></a>
+					<h3>register<wbr>Menus</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">register<wbr>Quick<wbr>Open<wbr>Handlers<span class="tsd-signature-symbol">(</span>handlers<span class="tsd-signature-symbol">: </span><a href="core.quickopenhandlerregistry-2.html" class="tsd-signature-type">QuickOpenHandlerRegistry</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Menus<span class="tsd-signature-symbol">(</span>registry<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MenuModelRegistry</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Implementation of <a href="../interfaces/core.quickopencontribution-2.html">QuickOpenContribution</a>.<a href="../interfaces/core.quickopencontribution-2.html#registerquickopenhandlers">registerQuickOpenHandlers</a></p>
+								<p>Implementation of MenuContribution.registerMenus</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L145">packages/editor/src/browser/editor-contribution.ts:145</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L175">packages/editor/src/browser/editor-contribution.ts:175</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>handlers: <a href="core.quickopenhandlerregistry-2.html" class="tsd-signature-type">QuickOpenHandlerRegistry</a></h5>
+									<h5>registry: <span class="tsd-signature-type">MenuModelRegistry</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -291,19 +325,19 @@
 					<a name="setcursorpositionstatus" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> set<wbr>Cursor<wbr>Position<wbr>Status</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Cursor<wbr>Position<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Cursor<wbr>Position<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L117">packages/editor/src/browser/editor-contribution.ts:117</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L122">packages/editor/src/browser/editor-contribution.ts:122</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>editor: <a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+									<h5>editor: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -314,19 +348,19 @@
 					<a name="updateencodingstatus" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Encoding<wbr>Status</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">update<wbr>Encoding<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Encoding<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L103">packages/editor/src/browser/editor-contribution.ts:103</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L108">packages/editor/src/browser/editor-contribution.ts:108</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>editor: <a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+									<h5>editor: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -337,19 +371,19 @@
 					<a name="updatelanguagestatus" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Language<wbr>Status</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
-						<li class="tsd-signature tsd-kind-icon">update<wbr>Language<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Language<wbr>Status<span class="tsd-signature-symbol">(</span>editor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L87">packages/editor/src/browser/editor-contribution.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L92">packages/editor/src/browser/editor-contribution.ts:92</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>editor: <a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type">TextEditor</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+									<h5>editor: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/editor.texteditor-1.html" class="tsd-signature-type" data-tsd-kind="Interface">TextEditor</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -366,7 +400,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/eclipse-theia/theia/blob/82457ccee5/packages/editor/src/browser/editor-contribution.ts#L70">packages/editor/src/browser/editor-contribution.ts:70</a></li>
+									<li>Defined in <a href="https://github.com/changwng/theia/blob/e0359d484a/packages/editor/src/browser/editor-contribution.ts#L75">packages/editor/src/browser/editor-contribution.ts:75</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -378,8 +412,8 @@
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
-					<li class="globals  ">
-						<a href="../globals.html"><em>Globals</em></a>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
 					</li>
 					<li class="current tsd-kind-module">
 						<a href="../modules/editor.html">editor</a>
@@ -392,6 +426,9 @@
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-module">
 								<a href="../modules/editor.customeditorwidget-1.html">Custom<wbr>Editor<wbr>Widget</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/editor.editoraccess-1.html">Editor<wbr>Access</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-module">
 								<a href="../modules/editor.editorcommands-1.html">Editor<wbr>Commands</a>
@@ -409,7 +446,13 @@
 								<a href="../modules/editor.navigationlocation.html">Navigation<wbr>Location</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/editor.recentlyclosededitor.html">Recently<wbr>Closed<wbr>Editor</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
 								<a href="../modules/editor.selectionlocation.html">Selection<wbr>Location</a>
+							</li>
+							<li class=" tsd-kind-namespace tsd-parent-kind-module">
+								<a href="../modules/editor.textdocumentcontentchangedelta-1.html">Text<wbr>Document<wbr>Content<wbr>Change<wbr>Delta</a>
 							</li>
 							<li class=" tsd-kind-namespace tsd-parent-kind-module">
 								<a href="../modules/editor.texteditorselection-1.html">Text<wbr>Editor<wbr>Selection</a>
@@ -425,6 +468,9 @@
 					<li class="current tsd-kind-class tsd-parent-kind-module">
 						<a href="editor.editorcontribution.html" class="tsd-kind-icon">Editor<wbr>Contribution</a>
 						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="editor.editorcontribution.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 								<a href="editor.editorcontribution.html#contextkeyservice" class="tsd-kind-icon">context<wbr>Key<wbr>Service</a>
 							</li>
@@ -432,10 +478,13 @@
 								<a href="editor.editorcontribution.html#editormanager" class="tsd-kind-icon">editor<wbr>Manager</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="editor.editorcontribution.html#editorquickopenservice" class="tsd-kind-icon">editor<wbr>Quick<wbr>Open<wbr>Service</a>
+								<a href="editor.editorcontribution.html#languages" class="tsd-kind-icon">languages</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
-								<a href="editor.editorcontribution.html#languages" class="tsd-kind-icon">languages</a>
+								<a href="editor.editorcontribution.html#quickinputservice" class="tsd-kind-icon">quick<wbr>Input<wbr>Service</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="editor.editorcontribution.html#shell" class="tsd-kind-icon">shell</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
 								<a href="editor.editorcontribution.html#statusbar" class="tsd-kind-icon">status<wbr>Bar</a>
@@ -456,7 +505,7 @@
 								<a href="editor.editorcontribution.html#registerkeybindings" class="tsd-kind-icon">register<wbr>Keybindings</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="editor.editorcontribution.html#registerquickopenhandlers" class="tsd-kind-icon">register<wbr>Quick<wbr>Open<wbr>Handlers</a>
+								<a href="editor.editorcontribution.html#registermenus" class="tsd-kind-icon">register<wbr>Menus</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
 								<a href="editor.editorcontribution.html#setcursorpositionstatus" class="tsd-kind-icon">set<wbr>Cursor<wbr>Position<wbr>Status</a>
@@ -485,7 +534,6 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
 				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
 				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
@@ -495,6 +543,7 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
